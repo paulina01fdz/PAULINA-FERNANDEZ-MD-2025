@@ -1,0 +1,18 @@
+Un cine local necesita un sistema para que los clientes puedan reservar entradas desde una terminal sencilla.
+El proceso debe ser:
+
+Mostrar la cartelera con varias películas disponibles.
+
+El usuario selecciona la película, el día y el horario deseado.
+
+El sistema muestra cuántas funciones hay disponibles.
+
+Si no hay asientos, el usuario debe volver a seleccionar día y horario.
+
+Si hay asientos disponibles, el usuario debe elegir el método de pago:
+
+Efectivo (confirmación directa).
+
+Tarjeta (ingresar datos de tarjeta).
+
+Una vez completado el pago, se confirma con "Transacción exitosa" y se muestra un resumen de la compra (película, día, horario, método de pago).
