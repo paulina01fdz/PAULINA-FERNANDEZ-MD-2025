@@ -93,7 +93,7 @@ function procesarPago(precio) {
 
 function sistemaReservas() {
     console.log("=== Bienvenido al sistema de reservas del cine ===");
-
+    // Desestructuración del objeto de la función seleccionarPelicula, para almacenar en variables independientes
     let { pelicula, precio } = seleccionarPelicula();
     let horario = seleccionarHorario();
     let pago = procesarPago(precio);
@@ -104,4 +104,3 @@ function sistemaReservas() {
     console.log("Hora:", horario.hora);
     console.log("Estado de pago:", pago);
 }
-
