@@ -16,3 +16,8 @@ Efectivo (confirmación directa).
 Tarjeta (ingresar datos de tarjeta).
 
 Una vez completado el pago, se confirma con "Transacción exitosa" y se muestra un resumen de la compra (película, día, horario, método de pago).
+
+========= Modo de uso del app ===========
+
+Ejecutarlo en el navegador con el devTools/terminal para ejecutar, ya que el código tiene implementado funciones como prompt proprocionadas por Js para
+que sean ejecutadas directamente en el navegador (No se puede ejecutar con node ya que no reconoce prompt como algo propio del lenguaje)

@@ -8,9 +8,7 @@ function seleccionarPelicula() {
     let opcion;
 
     while (true) {
-        opcion = prompt(
-            "Seleccione la película:\n1. Avengers ($15000)\n2. Batman ($12000)\n3. Mario Bros ($10000)"
-        );
+        opcion = prompt("Seleccione la película:\n1. Avengers ($15000)\n2. Batman ($12000)\n3. Mario Bros ($10000)");
 
         switch (opcion) {
             case "1":
