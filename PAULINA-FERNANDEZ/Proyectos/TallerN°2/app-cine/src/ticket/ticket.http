@@ -1,0 +1,14 @@
+POST http://localhost:3000/ticket/buy-ticket
+Content-Type: application/json
+    {
+    "peliculaId": 1,
+    "salaId": 1,
+    "asiento": "A12",
+    "clienteId": 1
+    }
+
+POST http://localhost:3000/ticket/validate-ticket/1
+
+GET http://localhost:3000/ticket/get-customer-tickets/1?activos=true
+
+DELETE http://localhost:3000/ticket/cancel-ticket/1/cambio-planes

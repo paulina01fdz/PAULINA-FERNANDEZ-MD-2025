@@ -1,0 +1,28 @@
+POST http://localhost:3000/movie/create-movie
+Content-Type: application/json
+
+    {
+    "titulo": "Avengers: Endgame",
+    "duracion": 150,
+    "precio": 12000
+    }
+
+POST http://localhost:3000/movie/schedule-movie-function/1
+Content-Type: application/json
+
+    {
+    "fecha": "2025-10-15",
+    "hora": "19:30"
+    }
+GET http://localhost:3000/movie/search-movies-by-genre/accion?duracionMinima=90&duracionMaxima=180&precioMaximo=15000&fechaEstreno=2024-01-15&idioma=español
+GET http://localhost:3000/movie/get-movie-details/1
+
+PUT http://localhost:3000/movie/update-movie-info/1
+Content-Type: application/json
+    {
+    "titulo": "Avengers: Endgame  Directors Cut",
+    "duracion": 195,
+    "precio": 14000
+    }
+
+DELETE http://localhost:3000/movie/delete-movie/1/baja-demanda

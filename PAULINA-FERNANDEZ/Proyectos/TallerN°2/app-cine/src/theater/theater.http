@@ -1,0 +1,19 @@
+POST http://localhost:3000/theater/create-theater
+Content-Type: application/json
+    {
+    "nombre": "Sala VIP Premium",
+    "capacidad": 50
+    }
+
+POST http://localhost:3000/theater/reserve-theater/1
+Content-Type: application/json
+
+    {
+    "fecha": "2025-10-15",
+    "hora": "19:30",
+    "peliculaId": 1
+    }
+
+GET http://localhost:3000/theater/get-theater-info/1
+
+GET http://localhost:3000/theater/get-theater-schedule/1?fecha=2025-10-15
